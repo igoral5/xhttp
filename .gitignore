@@ -1,5 +1,9 @@
+/.cproject
+/.project
 /CMakeFiles
 /Makefile
 /CMakeCache.txt
 /cmake_install.cmake
 /xhttp
+*~
+
