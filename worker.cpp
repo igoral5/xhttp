@@ -24,7 +24,7 @@ int Workers(int sock)
     Net::Socket socket(sock);
     socket.SetFlags(O_NONBLOCK);
     File::EPoll epfd(1000);
-    epfd.Control()
+    //epfd.Control();
     for (;;)
     {
         sleep(rand_r(&seed) % 30 + 1);
